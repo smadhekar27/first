@@ -1,0 +1,21 @@
+//Ref the story.txt for testing the changes
+git init // to initialise the git
+
+ls // to see all the files
+
+git status // to check the tracked and untracked files
+
+git add filename(eg git add story.txt) //To push the file into the queue
+
+git commit -m "message" //To commit the file
+
+git log //To check the log and rest details
+
+git diff filename(story.txt) // To check changes in the file
+
+git checkout filename(story.txt) // To rollback to previous checkpoint
+
+git remote add origin url (git remote add origin https://github.com/smadhekar27/first.git) 
+//To connect to github repository 
+
+git push -u origin master // To push the data to the github
