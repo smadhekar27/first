@@ -1,4 +1,7 @@
 //Ref the story.txt for testing the changes
+//Create an story.txt and write anything of your choice to check the changes
+//Head towards the path
+
 git init // to initialise the git
 
 ls // to see all the files
@@ -18,4 +21,6 @@ git checkout filename(story.txt) // To rollback to previous checkpoint
 git remote add origin url (git remote add origin https://github.com/smadhekar27/first.git) 
 //To connect to github repository 
 
-git push -u origin master // To push the data to the github
+git push -u origin master // To push the data to the GitHub
+
+git clone url //To clone any repository
